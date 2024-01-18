@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark text color */
+    margin: 20px;
+}
+
+h1 {
+    color: #007acc; /* Light blue heading color */
+}
+
+form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box shadow for the form */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+form:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Slightly darker box shadow on hover */
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box
+}
